@@ -1,0 +1,48 @@
+h1{
+    text-align: center; 
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+    color:#DF2771;
+    margin-bottom: 2%;
+}
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h-primary{
+    font-family: 'Bree Serif', serif;
+    font-size: 2.8rem;
+    padding: 12px;
+}
+
+#contact-box input,
+#contact-box textarea{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 9px;
+    font-size: 1.1rem;
+}
+
+#contact-box form{
+    width: 27%;
+    background-color: #DF2771;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 5%;
+}
+
+#contact-box label{
+   font-size: 1.3rem;
+}
+
+#myForm button[type="submit"] {
+    background-color: white; /* Button background color */
+    color: black; /* Button text color */
+    padding: 10px 20px; /* Button padding */
+    border: none; /* Remove button border */
+    border-radius: 5px; /* Add rounded corners */
+    cursor: pointer; /* Add a pointer cursor on hover */
+}
